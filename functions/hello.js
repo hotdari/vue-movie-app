@@ -1,8 +1,8 @@
-export.handler = async function (event, context) {
+exports.handler = async function (event, context) {
     return {
         statusCode: 200,
         body: JSON.stringify({
-            name: "HOTDARI",
+            name: "hotdari",
             age: 33,
             email: "hotdari90@naver.com"
         })

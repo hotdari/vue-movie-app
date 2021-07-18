@@ -86,6 +86,7 @@ export default {
   },
   created() {
     console.log(this.$route)
+    console.log(this.theMovie)
     this.$store.dispatch('movie/searchMovieWithId', {id: this.$route.params.id})
   },
   methods: {
